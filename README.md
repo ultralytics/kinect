@@ -11,8 +11,6 @@ The https://github.com/ultralytics/kinect repo contains 3D scene reconstruction 
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/qTAWyXwABos/0.jpg)](https://www.youtube-nocookie.com/embed/qTAWyXwABos?rel=0 "Video Title")
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qTAWyXwABos?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 # Requirements
 
 MATLAB >= 2018a with the following toolbox installed:  
