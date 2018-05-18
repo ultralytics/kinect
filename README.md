@@ -9,7 +9,7 @@ http://www.ultralytics.com
 
 The https://github.com/ultralytics/kinect repo contains 3D scene reconstruction algorithms applied to data collected from the  Microsoft Kinect depth-image sensor.  More example videos available at https://www.youtube.com/ultralytics.
 
-[![IMAGE ALT TEXT](https://github.com/ultralytics/kinect/blob/master/preview.jpg)](https://www.youtube.com/watch?v=qTAWyXwABos "Kinect Video")
+[![IMAGE ALT TEXT](https://github.com/ultralytics/kinect/blob/master/preview.jpg)](https://youtu.be/dqK5DkgTGyk "Kinect Video")
 
 # Requirements
 
