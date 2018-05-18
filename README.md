@@ -24,7 +24,7 @@ Ultralytics MATLAB common functions must also be cloned and added to the MATLAB 
 2. From MATLAB: ```>> apppath(genpath('/matlab-common'))```
 
 # Running
-Various methods. Please contact for more information.
+From MATLAB: ```>> buildscene.m```
 
 # Contact
 
