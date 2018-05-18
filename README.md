@@ -7,7 +7,7 @@ http://www.ultralytics.com  
 
 # Description
 
-The https://github.com/ultralytics/kinect repo contains 3D scene reconstruction algorithms applied to data collected from the  Microsoft Kinect depth image sensor.
+The https://github.com/ultralytics/kinect repo contains 3D scene reconstruction algorithms applied to data collected from the  Microsoft Kinect depth-image sensor.
 
 [![IMAGE ALT TEXT](https://github.com/ultralytics/kinect/blob/master/preview.jpg)](https://www.youtube.com/watch?v=qTAWyXwABos "Kinect Video")
 
@@ -25,8 +25,6 @@ Ultralytics MATLAB common functions must also be cloned and added to the MATLAB 
 
 # Running
 Various methods. Please contact for more information.
-
-<img src="https://github.com/ultralytics/magellan/blob/master/neutron_map.png"> 
 
 # Contact
 
