@@ -21,7 +21,7 @@ MATLAB >= 2018a with the following toolbox installed:
 Ultralytics MATLAB common functions must also be cloned and added to the MATLAB path:
 
 1. From shell: ```$ git clone https://github.com/ultralytics/matlab-common```
-2. From MATLAB: ```>> apppath(genpath('/matlab-common'))```
+2. From MATLAB: ```>> addpath(genpath('/matlab-common'))```
 
 # Running
 From MATLAB: ```>> buildscene```
