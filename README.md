@@ -3,25 +3,20 @@
 # Introduction
 
 This directory contains software developed by Ultralytics LLC. For more information on Ultralytics projects please visit:
-http://www.ultralytics.com  
+http://www.ultralytics.com
 
 # Description
 
 The https://github.com/ultralytics/kinect repo contains 3D scene reconstruction algorithms applied to data collected from the  Microsoft Kinect depth-image sensor.  More example videos available at https://www.youtube.com/ultralytics.
 
-[![IMAGE ALT TEXT](https://github.com/ultralytics/kinect/blob/master/preview.jpg)](https://www.youtube.com/watch?v=qTAWyXwABos "Kinect Video")
+[![IMAGE ALT TEXT](https://github.com/ultralytics/kinect/blob/master/preview.jpg)](https://youtu.be/dqK5DkgTGyk "Kinect Video")
 
 # Requirements
 
-MATLAB >= 2018a with the following toolbox installed:  
+[MATLAB](https://www.mathworks.com/products/matlab.html) >= 2018a with a common functions repo `$ git clone https://github.com/ultralytics/functions-matlab` added to the MATLAB path `>> addpath(genpath('/functions-matlab'))` and the following toolboxes:
 
-- ```Statistics and Machine Learning Toolbox```
-- ```Signal Processing Toolbox```
-
-Ultralytics MATLAB common functions must also be cloned and added to the MATLAB path:
-
-1. From shell: ```$ git clone https://github.com/ultralytics/matlab-common```
-2. From MATLAB: ```>> apppath(genpath('/matlab-common'))```
+- `Statistics and Machine Learning Toolbox`
+- `Signal Processing Toolbox`
 
 # Running
 From MATLAB: ```>> buildscene```
