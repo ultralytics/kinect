@@ -38,11 +38,11 @@ if i>5
 else
     ci=uint32(rand(round(9000/fraction),1)*(nxcp-1)+1);
 end
-xc1=xc(ci,:);
+xc1=double(xc(ci,:));
 ci=uint32(rand(round(3000/fraction),1)*(n1-1)+1);  x11=x1(ci,:);
 
 ns = createns(xc1,'NSMethod','kdtree');
-[xhat,fval]=fminunc(@(x) fcncost(xc1,x11,x,ns,fraction), double(xhat), options);  fprintf('%9.3f%9.3f%9.3f%9.3f%9.3f%9.3f (%.2fs icp, fx=%.3f)\n',xhat,toc,fval)
+[xhat,fval]=fminunc(@(x) fcncost(xc1,double(x11),x,ns,fraction), double(xhat), options);  fprintf('%9.3f%9.3f%9.3f%9.3f%9.3f%9.3f (%.2fs icp, fx=%.3f)\n',xhat,toc,fval)
 end
 
 function [fx, gx] = fcncost(vc0,v10,x,ns,fraction)

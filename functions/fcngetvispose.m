@@ -8,21 +8,23 @@ rpy0 = fcnregsmall2(h,xhat,rgb,I1,i);
 
 %I1 = im2double(rgb2gray(rgb(:,:,:,i-1)));
 I2 = im2double(rgb2gray(rgb(:,:,:,i)));
-hcornerdet = vision.CornerDetector('MaximumCornerCount', 500, 'CornerThreshold', 0.00001, 'NeighborhoodSize', [21 21], 'Method',  'Harris corner detection (Harris & Stephens)');
-cornerPoints1 = step(hcornerdet, I1);
-cornerPoints2 = step(hcornerdet, I2);
+%cornerPoints1 = detectHarrisFeatures(I1);
+cornerPoints2 = detectHarrisFeatures(I2);
 %[features1, vp1] = extractFeatures(I1, cornerPoints1, 'BlockSize', 21); %valid points
 [features2, vp2] = extractFeatures(I2, cornerPoints2, 'BlockSize', 21);
-[indexPairs, match_metric] = matchFeatures(features1, features2, 'Metric', 'normxcorr', 'MatchThreshold', 20);
+[indexPairs, match_metric] = matchFeatures(features1, features2, 'MatchThreshold', 20);
 mp1 = vp1(indexPairs(:, 1), :);  %matched points 1
 mp2 = vp2(indexPairs(:, 2), :);  %matched points 2
 %cvexShowImagePair(I1, I2, 'Corners in left image', 'Corners in right image', 'SingleColor', cornerPoints1, cornerPoints2);
 
-r=sqrt(sum((double(mp1)-double(mp2)).^2,2));
+mp1 = mp1.Location;
+mp2 = mp2.Location;
+
+r=sqrt(sum((mp1-mp2).^2,2));
 j=r<100;
 mp1=mp1(j,:);  mp2=mp2(j,:);
 for ii=1:6
-    r=sqrt(sum((double(mp1)-double(mp2)).^2,2));  mu=mean(r);  sigma=std(r);
+    r=sqrt(sum((mp1-mp2).^2,2));  mu=mean(r);  sigma=std(r);
     j=r<(mu+2*sigma) & r>(mu-2*sigma);
     mp1=mp1(j,:);  mp2=mp2(j,:);
 end
