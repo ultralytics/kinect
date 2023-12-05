@@ -14,12 +14,8 @@ The https://github.com/ultralytics/kinect repo contains 3D scene reconstruction 
 - `Statistics and Machine Learning Toolbox`
 - `Signal Processing Toolbox`
 
-# Running
+# Run
 From MATLAB: ```>> buildscene```
-
-# Citation
-
-[![DOI](https://zenodo.org/badge/137117503.svg)](https://zenodo.org/badge/latestdoi/137117503)
 
 # Contribute
 
