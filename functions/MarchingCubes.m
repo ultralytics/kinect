@@ -9,7 +9,7 @@ function [F,V,col] = MarchingCubes(x,y,z,c,iso,colors)
 % is given. Output arguments F and V are the face list and vertex list 
 % of the resulting triangulated mesh. The orientation of the triangles is 
 % chosen such that the normals point from the higher values to the lower 
-% values. Optional arguments COLORS ans COLS can be used to produce 
+% values. Optional arguments COLORS and COLS can be used to produce 
 % interpolated mesh face colors. For usage, see Matlab's isosurface.m. 
 % To avoid Out of Memory errors when matrix C is large, convert matrices 
 % X,Y,Z and C from doubles (Matlab default) to singles (32-bit floats). 
