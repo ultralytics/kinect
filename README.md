@@ -22,6 +22,7 @@ After cloning, add it to your MATLAB path:
 ```
 
 Make sure you have the following toolboxes installed:
+
 - `Statistics and Machine Learning Toolbox`
 - `Signal Processing Toolbox`
 
@@ -38,6 +39,7 @@ Launch the 3D reconstruction in MATLAB with ease:
 Your insights can help enhance the project! We are thrilled to collaborate with our community. To get started, please review our [Contributing Guide](https://docs.ultralytics.com/help/contributing) and fill out the [Survey](https://ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). Your feedback drives our improvements. A heartfelt thank you goes out to everyone who has already contributed!
 
 <!-- A visual representation of our amazing contributors -->
+
 <a href="https://github.com/ultralytics/yolov5/graphs/contributors">
 <img width="100%" src="https://github.com/ultralytics/assets/raw/main/im/image-contributors.png" alt="Meet our open-source contributors"></a>
 
