@@ -5,6 +5,8 @@
 
 Welcome to the [Ultralytics Kinect](https://github.com/ultralytics/kinect) repository! Here, you'll explore state-of-the-art 3D scene reconstruction algorithms using data captured with the Microsoft Kinect sensor, a groundbreaking depth-imaging device. Dive into our technology and watch it in action through example videos on our [YouTube channel](https://www.youtube.com/ultralytics).
 
+[![Ultralytics Actions](https://github.com/ultralytics/kinect/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/kinect/actions/workflows/format.yml)
+
 [![Kinect Video Preview](https://github.com/ultralytics/kinect/blob/master/preview.jpg)](https://youtu.be/dqK5DkgTGyk "Click to Watch!")
 
 # Prerequisites 🛠️
@@ -45,7 +47,7 @@ Your insights can help enhance the project! We are thrilled to collaborate with 
 
 # Licensing Options ⚖️
 
-This software is under the **AGPL-3.0 License**, which is an [OSI-approved](https://opensource.org/licenses/AGPL-3.0) open-source license. It's perfect for students, researchers, and enthusiasts promoting transparency and collaboration. Detailed information is available in our [LICENSE](https://github.com/ultralytics/kinect/blob/main/LICENSE) file.
+This software is under the **AGPL-3.0 License**, which is an [OSI-approved](https://opensource.org/licenses/AGPL-3.0) open-source license. It's perfect for students, researchers, and enthusiasts promoting transparency and collaboration. Detailed information is available in our [LICENSE](LICENSE) file.
 
 For commercial applications, an **Enterprise License** is available, which allows you to integrate Ultralytics software seamlessly into your products or services without the open-source constraints of AGPL-3.0. For more details on commercial use, please visit [Ultralytics Licensing](https://ultralytics.com/license).
 
