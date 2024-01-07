@@ -5,7 +5,7 @@
 
 Welcome to the [Ultralytics Kinect](https://github.com/ultralytics/kinect) repository! Here, you'll explore state-of-the-art 3D scene reconstruction algorithms using data captured with the Microsoft Kinect sensor, a groundbreaking depth-imaging device. Dive into our technology and watch it in action through example videos on our [YouTube channel](https://www.youtube.com/ultralytics).
 
-[![Ultralytics Actions](https://github.com/ultralytics/magellan/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/magellan/actions/workflows/format.yml)
+[![Ultralytics Actions](https://github.com/ultralytics/kinect/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/kinect/actions/workflows/format.yml)
 
 [![Kinect Video Preview](https://github.com/ultralytics/kinect/blob/master/preview.jpg)](https://youtu.be/dqK5DkgTGyk "Click to Watch!")
 
