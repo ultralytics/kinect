@@ -5,7 +5,7 @@
 
 [![Ultralytics Actions](https://github.com/ultralytics/kinect/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/kinect/actions/workflows/format.yml) <a href="https://ultralytics.com/discord"><img alt="Discord" src="https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue"></a> <a href="https://community.ultralytics.com"><img alt="Ultralytics Forums" src="https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue"></a> <a href="https://reddit.com/r/ultralytics"><img alt="Ultralytics Reddit" src="https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue"></a>
 
-Welcome to the [Ultralytics Kinect](https://github.com/ultralytics/kinect) repository! Here, you'll explore state-of-the-art 3D scene reconstruction algorithms using data captured with the Microsoft Kinect sensor, a groundbreaking depth-imaging device. Dive into our technology and watch it in action through example videos on our [YouTube channel](https://www.youtube.com/ultralytics).
+Welcome to the [Ultralytics Kinect](https://github.com/ultralytics/kinect) repository! Here, you'll explore state-of-the-art 3D scene reconstruction algorithms using data captured with the Microsoft Kinect sensor, a groundbreaking depth-imaging device. Dive into our technology and watch it in action through example videos on our [YouTube channel](https://consent.youtube.com/m?continue=https%3A%2F%2Fwww.youtube.com%2Fultralytics%3Fcbrd%3D1&gl=ES&m=0&pc=yt&cm=2&hl=en&src=1).
 
 [![Kinect Video Preview](https://github.com/ultralytics/kinect/blob/main/preview.jpg)](https://youtu.be/dqK5DkgTGyk "Click to Watch!")
 
@@ -38,7 +38,7 @@ Launch the 3D reconstruction in MATLAB with ease:
 
 # Contribute 🤝
 
-Your insights can help enhance the project! We are thrilled to collaborate with our community. To get started, please review our [Contributing Guide](https://docs.ultralytics.com/help/contributing) and fill out the [Survey](https://ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). Your feedback drives our improvements. A heartfelt thank you goes out to everyone who has already contributed!
+Your insights can help enhance the project! We are thrilled to collaborate with our community. To get started, please review our [Contributing Guide](https://docs.ultralytics.com/help/contributing) and fill out the [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). Your feedback drives our improvements. A heartfelt thank you goes out to everyone who has already contributed!
 
 <!-- A visual representation of our amazing contributors -->
 
@@ -47,13 +47,13 @@ Your insights can help enhance the project! We are thrilled to collaborate with 
 
 # Licensing Options ⚖️
 
-This software is under the **AGPL-3.0 License**, which is an [OSI-approved](https://opensource.org/licenses/AGPL-3.0) open-source license. It's perfect for students, researchers, and enthusiasts promoting transparency and collaboration. Detailed information is available in our [LICENSE](LICENSE) file.
+This software is under the **AGPL-3.0 License**, which is an [OSI-approved](https://opensource.org/license/agpl-v3) open-source license. It's perfect for students, researchers, and enthusiasts promoting transparency and collaboration. Detailed information is available in our [LICENSE](LICENSE) file.
 
-For commercial applications, an **Enterprise License** is available, which allows you to integrate Ultralytics software seamlessly into your products or services without the open-source constraints of AGPL-3.0. For more details on commercial use, please visit [Ultralytics Licensing](https://ultralytics.com/license).
+For commercial applications, an **Enterprise License** is available, which allows you to integrate Ultralytics software seamlessly into your products or services without the open-source constraints of AGPL-3.0. For more details on commercial use, please visit [Ultralytics Licensing](https://www.ultralytics.com/license).
 
 # Stay Connected! 🌐
 
-If you encounter any bugs or wish to request features, please post them on [GitHub Issues](https://github.com/ultralytics/kinect/issues). Also, join our inspiring [Discord](https://ultralytics.com/discord) community for discussions, questions, and brainstorming sessions!
+If you encounter any bugs or wish to request features, please post them on [GitHub Issues](https://github.com/ultralytics/kinect/issues). Also, join our inspiring [Discord](https://discord.com/invite/ultralytics) community for discussions, questions, and brainstorming sessions!
 
 <br>
 <div align="center">
