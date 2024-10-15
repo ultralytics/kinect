@@ -1,9 +1,9 @@
 <br>
-<a href="https://ultralytics.com" target="_blank"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
+<a href="https://www.ultralytics.com/" target="_blank"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
 
 # Introduction 🌟
 
-[![Ultralytics Actions](https://github.com/ultralytics/kinect/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/kinect/actions/workflows/format.yml) <a href="https://ultralytics.com/discord"><img alt="Discord" src="https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue"></a> <a href="https://community.ultralytics.com"><img alt="Ultralytics Forums" src="https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue"></a> <a href="https://reddit.com/r/ultralytics"><img alt="Ultralytics Reddit" src="https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue"></a>
+[![Ultralytics Actions](https://github.com/ultralytics/kinect/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/kinect/actions/workflows/format.yml) <a href="https://discord.com/invite/ultralytics"><img alt="Discord" src="https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue"></a> <a href="https://community.ultralytics.com/"><img alt="Ultralytics Forums" src="https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue"></a> <a href="https://reddit.com/r/ultralytics"><img alt="Ultralytics Reddit" src="https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue"></a>
 
 Welcome to the [Ultralytics Kinect](https://github.com/ultralytics/kinect) repository! Here, you'll explore state-of-the-art 3D scene reconstruction algorithms using data captured with the Microsoft Kinect sensor, a groundbreaking depth-imaging device. Dive into our technology and watch it in action through example videos on our [YouTube channel](https://youtube.com/ultralytics?sub_confirmation=1).
 
@@ -38,7 +38,7 @@ Launch the 3D reconstruction in MATLAB with ease:
 
 # Contribute 🤝
 
-Your insights can help enhance the project! We are thrilled to collaborate with our community. To get started, please review our [Contributing Guide](https://docs.ultralytics.com/help/contributing) and fill out the [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). Your feedback drives our improvements. A heartfelt thank you goes out to everyone who has already contributed!
+Your insights can help enhance the project! We are thrilled to collaborate with our community. To get started, please review our [Contributing Guide](https://docs.ultralytics.com/help/contributing/) and fill out the [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). Your feedback drives our improvements. A heartfelt thank you goes out to everyone who has already contributed!
 
 <!-- A visual representation of our amazing contributors -->
 
@@ -69,5 +69,5 @@ If you encounter any bugs or wish to request features, please post them on [GitH
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
   <a href="https://ultralytics.com/bilibili"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-bilibili.png" width="3%" alt="Ultralytics BiliBili"></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
-  <a href="https://ultralytics.com/discord"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-discord.png" width="3%" alt="Ultralytics Discord"></a>
+  <a href="https://discord.com/invite/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-discord.png" width="3%" alt="Ultralytics Discord"></a>
 </div>
