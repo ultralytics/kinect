@@ -7,7 +7,7 @@
 [![Ultralytics Forums](https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue)](https://community.ultralytics.com/)
 [![Ultralytics Reddit](https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue)](https://reddit.com/r/ultralytics)
 
-Welcome to the [Ultralytics Kinect](https://github.com/ultralytics/kinect) repository! This project showcases advanced **3D scene reconstruction** algorithms utilizing data captured by the [Microsoft Kinect sensor](https://developer.microsoft.com/en-us/windows/kinect/), a pioneering depth-imaging device. Explore our implementation of cutting-edge techniques in [computer vision](https://www.ultralytics.com/glossary/computer-vision-cv) and see the results in action through example videos on the [Ultralytics YouTube channel](https://www.youtube.com/ultralytics).
+Welcome to the [Ultralytics Kinect](https://github.com/ultralytics/kinect) repository! This project showcases advanced **3D scene reconstruction** algorithms utilizing data captured by the [Microsoft Kinect sensor](https://developer.microsoft.com/en-us/windows/kinect/), a pioneering [depth-imaging](https://www.ultralytics.com/glossary/computer-vision-cv) device. Explore our implementation of cutting-edge techniques in [computer vision](https://www.ultralytics.com/glossary/computer-vision-cv) and see the results in action through example videos on the [Ultralytics YouTube channel](https://www.youtube.com/ultralytics).
 
 [![Kinect Video Preview](https://github.com/ultralytics/kinect/blob/main/preview.jpg)](https://youtu.be/dqK5DkgTGyk "Click to Watch the 3D Reconstruction Demo!")
 
@@ -19,28 +19,28 @@ Before starting, ensure you have [MATLAB](https://www.mathworks.com/products/mat
 git clone https://github.com/ultralytics/functions-matlab
 ```
 
-After cloning, add the repository to your MATLAB path. Replace `/path/to/` with the actual directory where you cloned the repository:
+After cloning, add the repository to your MATLAB path. Replace `/path/to/` with the actual directory where you cloned the `functions-matlab` repository:
 
 ```matlab
-addpath(genpath('/path/to/functions-matlab'))
+addpath(genpath('/path/to/functions-matlab')) % Add the cloned repo to your MATLAB path
 ```
 
 Additionally, confirm that the following MATLAB toolboxes are installed:
 
--   Statistics and Machine Learning Toolbox
--   Signal Processing Toolbox
+-   [Statistics and Machine Learning Toolbox](https://www.mathworks.com/products/statistics.html)
+-   [Signal Processing Toolbox](https://www.mathworks.com/products/signal.html)
 
-For more details on setting up development environments, check out the [Ultralytics documentation](https://docs.ultralytics.com/).
+For more details on setting up development environments, check out the general [Ultralytics documentation](https://docs.ultralytics.com/).
 
 # How to Run 🏃
 
-To launch the 3D scene reconstruction process, simply run the following command within your MATLAB environment:
+To launch the 3D scene reconstruction process, simply run the `buildscene` command within your MATLAB environment:
 
 ```matlab
-buildscene
+buildscene % Start the 3D reconstruction process
 ```
 
-This script initiates the reconstruction using the provided Kinect data and algorithms. For a general overview of running Ultralytics projects, see our [Quickstart Guide](https://docs.ultralytics.com/quickstart/).
+This script initiates the reconstruction using the provided Kinect data and the implemented algorithms. For a general overview of running Ultralytics projects, see our [Quickstart Guide](https://docs.ultralytics.com/quickstart/).
 
 # Contribute 🤝
 
@@ -50,9 +50,9 @@ Your contributions can significantly enhance this project! We welcome collaborat
 
 # Licensing Options ⚖️
 
-This software is available under the **AGPL-3.0 License**, an [OSI-approved](https://opensource.org/license/agpl-v3) open-source license emphasizing transparency and collaboration. This license is ideal for students, researchers, and enthusiasts. You can find the full license details in the [LICENSE](LICENSE) file.
+This software is available under the **AGPL-3.0 License**, an [OSI-approved](https://opensource.org/license/agpl-v3) open-source license emphasizing transparency and collaboration. This license is ideal for students, researchers, and enthusiasts looking to experiment and share their work. You can find the full license details in the [LICENSE](LICENSE) file.
 
-For commercial use cases, Ultralytics offers an **Enterprise License**. This allows seamless integration of our software into your commercial products and services, bypassing the open-source requirements of AGPL-3.0. Learn more about commercial licensing options at [Ultralytics Licensing](https://www.ultralytics.com/license). Understanding different [open-source licenses](https://opensource.org/licenses) can be helpful.
+For commercial use cases requiring integration into proprietary products and services, Ultralytics offers an **Enterprise License**. This license bypasses the open-source requirements of AGPL-3.0, providing flexibility for commercial deployment. Learn more about our commercial licensing options at [Ultralytics Licensing](https://www.ultralytics.com/license).
 
 # Stay Connected! 🌐
 
