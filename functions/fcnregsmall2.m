@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [rpy,xhat] = fcnregsmall2(hin,xhat,rgb,I1,i)
 options = optimset('TolX',1E-9,'TolFun',1E-9,'MaxIter',50,'Display','off','MaxFunEvals',5000,'LargeScale', 'off','GradObj','on'); tic
 if i==1

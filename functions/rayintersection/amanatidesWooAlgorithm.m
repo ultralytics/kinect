@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function amanatidesWooAlgorithm(origin, direction, grid3D, verbose)
 % A fast and simple voxel traversal algorithm through a 3D space partition (grid)
 % proposed by J. Amanatides and A. Woo (1987).

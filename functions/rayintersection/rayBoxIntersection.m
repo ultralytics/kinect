@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [flag ,tmin] = rayBoxIntersection(origin, direction, vmin, vmax)
 %  Ray/box intersection using the Smits' algorithm
 %
