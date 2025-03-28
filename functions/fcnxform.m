@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [x2, C] = fcnxform(x,xhat)
 
 C = fcnRPY2DCM_W2B(xhat(4:6));

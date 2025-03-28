@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 %function v=fcnvoxels(x1)
 nv=400;
 nr=size(x1,1);

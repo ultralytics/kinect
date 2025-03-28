@@ -1,3 +1,5 @@
+% Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
 function [F,V,col] = MarchingCubes(x,y,z,c,iso,colors)
 
 % [F,V] = MarchingCubes(X,Y,Z,C,ISO)
