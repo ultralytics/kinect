@@ -28,10 +28,10 @@ addpath(genpath('/path/to/functions-matlab')) % Add the common functions repo
 
 Additionally, confirm that the following MATLAB toolboxes are installed:
 
--   [Statistics and Machine Learning Toolbox](https://www.mathworks.com/products/statistics.html)
--   [Signal Processing Toolbox](https://www.mathworks.com/products/signal.html)
--   [Computer Vision Toolbox](https://www.mathworks.com/products/computer-vision.html)
--   [Image Processing Toolbox](https://www.mathworks.com/products/image.html)
+- [Statistics and Machine Learning Toolbox](https://www.mathworks.com/products/statistics.html)
+- [Signal Processing Toolbox](https://www.mathworks.com/products/signal.html)
+- [Computer Vision Toolbox](https://www.mathworks.com/products/computer-vision.html)
+- [Image Processing Toolbox](https://www.mathworks.com/products/image.html)
 
 For more details on setting up development environments, check out the general [Ultralytics documentation](https://docs.ultralytics.com/).
 
