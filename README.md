@@ -9,26 +9,29 @@
 
 Welcome to the [Ultralytics Kinect](https://github.com/ultralytics/kinect) repository! This project showcases advanced **3D scene reconstruction** algorithms utilizing data captured by the [Microsoft Kinect sensor](https://developer.microsoft.com/en-us/windows/kinect/), a pioneering [depth-imaging](https://www.ultralytics.com/glossary/computer-vision-cv) device. Explore our implementation of cutting-edge techniques in [computer vision](https://www.ultralytics.com/glossary/computer-vision-cv) and see the results in action through example videos on the [Ultralytics YouTube channel](https://www.youtube.com/ultralytics).
 
-[![Kinect Video Preview](https://github.com/ultralytics/kinect/blob/main/preview.jpg)](https://youtu.be/dqK5DkgTGyk "Click to Watch the 3D Reconstruction Demo!")
+[![Kinect Video Preview](preview.jpg)](https://youtu.be/dqK5DkgTGyk "Click to Watch the 3D Reconstruction Demo!")
 
 # Prerequisites 🛠️
 
-Before starting, ensure you have [MATLAB](https://www.mathworks.com/products/matlab.html) version 2018a or newer installed. You'll also need our repository of common MATLAB functions. Clone it using the following command:
+Before starting, ensure you have [MATLAB](https://www.mathworks.com/products/matlab.html) R2018a or newer installed. You'll also need our repository of common MATLAB functions. Clone it using the following command:
 
 ```shell
 git clone https://github.com/ultralytics/functions-matlab
 ```
 
-After cloning, add the repository to your MATLAB path. Replace `/path/to/` with the actual directory where you cloned the `functions-matlab` repository:
+After cloning, add this repository and the common-functions repository to your MATLAB path. Replace `/path/to/` with the actual directories where you cloned the repositories:
 
 ```matlab
-addpath(genpath('/path/to/functions-matlab')) % Add the cloned repo to your MATLAB path
+addpath(genpath('/path/to/kinect')) % Add this repo so data/kinect_single.mat is discoverable
+addpath(genpath('/path/to/functions-matlab')) % Add the common functions repo
 ```
 
 Additionally, confirm that the following MATLAB toolboxes are installed:
 
 -   [Statistics and Machine Learning Toolbox](https://www.mathworks.com/products/statistics.html)
 -   [Signal Processing Toolbox](https://www.mathworks.com/products/signal.html)
+-   [Computer Vision Toolbox](https://www.mathworks.com/products/computer-vision.html)
+-   [Image Processing Toolbox](https://www.mathworks.com/products/image.html)
 
 For more details on setting up development environments, check out the general [Ultralytics documentation](https://docs.ultralytics.com/).
 
@@ -50,7 +53,7 @@ Your contributions can significantly enhance this project! We welcome collaborat
 
 # Licensing Options ⚖️
 
-This software is available under the **AGPL-3.0 License**, an [OSI-approved](https://opensource.org/license/agpl-v3) open-source license emphasizing transparency and collaboration. This license is ideal for students, researchers, and enthusiasts looking to experiment and share their work. You can find the full license details in the [LICENSE](LICENSE) file.
+This software is available under the **AGPL-3.0 License**, an [OSI-approved](https://opensource.org/license/agpl-3-0/) open-source license emphasizing transparency and collaboration. This license is ideal for students, researchers, and enthusiasts looking to experiment and share their work. You can find the full license details in the [LICENSE](LICENSE) file.
 
 For commercial use cases requiring integration into proprietary products and services, Ultralytics offers an **Enterprise License**. This license bypasses the open-source requirements of AGPL-3.0, providing flexibility for commercial deployment. Learn more about our commercial licensing options at [Ultralytics Licensing](https://www.ultralytics.com/license).
 
