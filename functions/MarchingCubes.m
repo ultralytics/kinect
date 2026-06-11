@@ -73,13 +73,13 @@ vertex_idx = {1:n(1), 1:n(2), 1:n(3); ...
     2:n(1)+1, 2:n(2)+1, 2:n(3)+1; ...
     1:n(1), 2:n(2)+1, 2:n(3)+1 };
 
-for ii=1:8                             % loop through vertices of all cubes
+for ii=1:8                             % loop thru vertices of all cubes
     idx = c(vertex_idx{ii, :}) > iso;  % which cubes have vtx ii > iso
     cc(idx) = bitset(cc(idx), ii);     % for those cubes, turn bit ii on
 end
 
 cedge = edgeTable(cc+1);  % intersected edges for each cube
-id =  find(cedge);        % voxels which are intersected (index into cedge)
+id =  find(cedge);        % voxels which are intersected (indx into cedge)
 if isempty(id)            % all voxels are above or below iso
     F = [];
     V = [];
