@@ -43,17 +43,17 @@ To launch the 3D scene reconstruction process, simply run the `buildscene` comma
 buildscene % Start the 3D reconstruction process
 ```
 
-This script initiates the reconstruction using the provided Kinect data and the implemented algorithms. For a general overview of running Ultralytics projects, see our [Quickstart Guide](https://docs.ultralytics.com/quickstart/).
+This script initiates the reconstruction using the provided Kinect data and the implemented algorithms. For a general overview of running Ultralytics projects, see our [Quickstart Guide](https://docs.ultralytics.com/quickstart).
 
 # Contribute 🤝
 
-Your contributions can significantly enhance this project! We welcome collaboration from the open-source community. To get started, please review our [Contributing Guide](https://docs.ultralytics.com/help/contributing/) and consider sharing your feedback through our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). Your insights help drive improvements and innovation at [Ultralytics](https://www.ultralytics.com/). A big thank you to all our contributors!
+Your contributions can significantly enhance this project! We welcome collaboration from the open-source community. To get started, please review our [Contributing Guide](https://docs.ultralytics.com/help/contributing) and consider sharing your feedback through our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). Your insights help drive improvements and innovation at [Ultralytics](https://www.ultralytics.com/). A big thank you to all our contributors!
 
 [![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/ultralytics/graphs/contributors)
 
 # Licensing Options ⚖️
 
-This software is available under the **AGPL-3.0 License**, an [OSI-approved](https://opensource.org/license/agpl-3-0/) open-source license emphasizing transparency and collaboration. This license is ideal for students, researchers, and enthusiasts looking to experiment and share their work. You can find the full license details in the [LICENSE](LICENSE) file.
+This software is available under the **AGPL-3.0 License**, an [OSI-approved](https://opensource.org/license/agpl-3-0) open-source license emphasizing transparency and collaboration. This license is ideal for students, researchers, and enthusiasts looking to experiment and share their work. You can find the full license details in the [LICENSE](LICENSE) file.
 
 For commercial use cases requiring integration into proprietary products and services, Ultralytics offers an **Enterprise License**. This license bypasses the open-source requirements of AGPL-3.0, providing flexibility for commercial deployment. Learn more about our commercial licensing options at [Ultralytics Licensing](https://www.ultralytics.com/license).
 
