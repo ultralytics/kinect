@@ -7,7 +7,7 @@
 [![Ultralytics Forums](https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue)](https://community.ultralytics.com/)
 [![Ultralytics Reddit](https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue)](https://reddit.com/r/ultralytics)
 
-Welcome to the [Ultralytics Kinect](https://github.com/ultralytics/kinect) repository! This project showcases advanced **3D scene reconstruction** algorithms utilizing data captured by the [Microsoft Kinect sensor](https://developer.microsoft.com/en-us/windows/kinect/), a pioneering [depth-imaging](https://www.ultralytics.com/glossary/computer-vision-cv) device. Explore our implementation of cutting-edge techniques in [computer vision](https://www.ultralytics.com/glossary/computer-vision-cv) and see the results in action through example videos on the [Ultralytics YouTube channel](https://www.youtube.com/ultralytics).
+Welcome to the [Ultralytics Kinect](https://github.com/ultralytics/kinect) repository! This project showcases advanced **3D scene reconstruction** algorithms utilizing data captured by the [Microsoft Kinect sensor](https://en.wikipedia.org/wiki/Kinect), a pioneering [depth-imaging](https://www.ultralytics.com/glossary/depth-estimation) device. Explore our implementation of cutting-edge techniques in [computer vision](https://www.ultralytics.com/glossary/computer-vision-cv) and see the results in action through example videos on the [Ultralytics YouTube channel](https://www.youtube.com/ultralytics).
 
 [![Kinect Video Preview](preview.jpg)](https://youtu.be/dqK5DkgTGyk "Click to Watch the 3D Reconstruction Demo!")
 
