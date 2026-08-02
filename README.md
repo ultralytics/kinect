@@ -11,7 +11,7 @@ Welcome to the [Ultralytics Kinect](https://github.com/ultralytics/kinect) repos
 
 [![Kinect Video Preview](preview.jpg)](https://youtu.be/dqK5DkgTGyk "Click to Watch the 3D Reconstruction Demo!")
 
-# Prerequisites 🛠️
+## Prerequisites 🛠️
 
 Before starting, ensure you have [MATLAB](https://www.mathworks.com/products/matlab.html) R2018a or newer installed. You'll also need our repository of common MATLAB functions. Clone it using the following command:
 
@@ -35,7 +35,7 @@ Additionally, confirm that the following MATLAB toolboxes are installed:
 
 For more details on setting up development environments, check out the general [Ultralytics documentation](https://docs.ultralytics.com/).
 
-# How to Run 🏃
+## How to Run 🏃
 
 To launch the 3D scene reconstruction process, simply run the `buildscene` command within your MATLAB environment:
 
@@ -45,21 +45,29 @@ buildscene % Start the 3D reconstruction process
 
 This script initiates the reconstruction using the provided Kinect data and the implemented algorithms. For a general overview of running Ultralytics projects, see our [Quickstart Guide](https://docs.ultralytics.com/quickstart).
 
-# Contribute 🤝
+## 💡 Contribute
 
-Your contributions can significantly enhance this project! We welcome collaboration from the open-source community. To get started, please review our [Contributing Guide](https://docs.ultralytics.com/help/contributing) and consider sharing your feedback through our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). Your insights help drive improvements and innovation at [Ultralytics](https://www.ultralytics.com/). A big thank you to all our contributors!
+Ultralytics thrives on community collaboration, and we deeply value your contributions! Whether it's reporting bugs, suggesting features, or submitting code changes, your involvement is crucial.
+
+- **Reporting Issues**: Encounter a bug? Please report it on [GitHub Issues](https://github.com/ultralytics/kinect/issues).
+- **Feature Requests**: Have an idea for improvement? Share it via [GitHub Issues](https://github.com/ultralytics/kinect/issues).
+- **Pull Requests**: Want to contribute code? Please read our [Contributing Guide](https://docs.ultralytics.com/help/contributing) first, then submit a Pull Request.
+- **Feedback**: Share your thoughts and experiences by participating in our official [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey).
+
+A heartfelt thank you 🙏 goes out to all our contributors! Your efforts help make Ultralytics tools better for everyone.
 
 [![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/ultralytics/graphs/contributors)
 
-# Licensing Options ⚖️
+## 📄 License
 
-This software is available under the **AGPL-3.0 License**, an [OSI-approved](https://opensource.org/license/agpl-3-0) open-source license emphasizing transparency and collaboration. This license is ideal for students, researchers, and enthusiasts looking to experiment and share their work. You can find the full license details in the [LICENSE](LICENSE) file.
+Ultralytics offers two licensing options to accommodate diverse needs:
 
-For commercial use cases requiring integration into proprietary products and services, Ultralytics offers an **Enterprise License**. This license bypasses the open-source requirements of AGPL-3.0, providing flexibility for commercial deployment. Learn more about our commercial licensing options at [Ultralytics Licensing](https://www.ultralytics.com/license).
+- **AGPL-3.0 License**: Ideal for students, researchers, and enthusiasts passionate about open collaboration and knowledge sharing. This [OSI-approved](https://opensource.org/license/agpl-3.0) open-source license promotes transparency and community involvement. See the [LICENSE](LICENSE) file for details.
+- **Enterprise License**: Designed for commercial applications, this license permits the seamless integration of Ultralytics software and AI models into commercial products and services, bypassing the copyleft requirements of AGPL-3.0. For commercial use cases, please inquire about an [Ultralytics Enterprise License](https://www.ultralytics.com/license).
 
-# Stay Connected! 🌐
+## 📮 Contact
 
-Encountered a bug or have a feature request? Please submit it via [GitHub Issues](https://github.com/ultralytics/kinect/issues). We also invite you to join our vibrant [Discord](https://discord.com/invite/ultralytics) community for discussions, support, and collaboration with fellow developers and the Ultralytics team. Stay updated on the latest in AI and computer vision through the [Ultralytics Blog](https://www.ultralytics.com/blog).
+For bug reports or feature suggestions, please use [GitHub Issues](https://github.com/ultralytics/kinect/issues). For general questions, discussions, and community support, join our [Discord](https://discord.com/invite/ultralytics) server!
 
 <br>
 <div align="center">
@@ -69,7 +77,7 @@ Encountered a bug or have a feature request? Please submit it via [GitHub Issues
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
   <a href="https://twitter.com/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-twitter.png" width="3%" alt="Ultralytics Twitter"></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
-  <a href="https://youtube.com/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-youtube.png" width="3%" alt="Ultralytics YouTube"></a>
+  <a href="https://www.youtube.com/ultralytics?sub_confirmation=1"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-youtube.png" width="3%" alt="Ultralytics YouTube"></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
   <a href="https://www.tiktok.com/@ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-tiktok.png" width="3%" alt="Ultralytics TikTok"></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
