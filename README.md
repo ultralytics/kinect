@@ -9,7 +9,7 @@
 
 Welcome to the [Ultralytics Kinect](https://github.com/ultralytics/kinect) repository! This project showcases advanced **3D scene reconstruction** algorithms utilizing data captured by the [Microsoft Kinect sensor](https://en.wikipedia.org/wiki/Kinect), a pioneering [depth-imaging](https://www.ultralytics.com/glossary/depth-estimation) device. Explore our implementation of cutting-edge techniques in [computer vision](https://www.ultralytics.com/glossary/computer-vision-cv) and see the results in action through example videos on the [Ultralytics YouTube channel](https://www.youtube.com/ultralytics).
 
-[![Kinect Video Preview](preview.jpg)](https://youtu.be/dqK5DkgTGyk "Click to Watch the 3D Reconstruction Demo!")
+![Kinect 3D reconstruction preview](preview.jpg)
 
 ## Prerequisites 🛠️
 
